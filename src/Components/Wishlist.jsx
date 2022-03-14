@@ -29,7 +29,7 @@ const Wishlist = () => {
                 placeholder="Add Something"
                 onChange={(e) => collectValue(e)}
             />
-            {lists.length == 3 ? (
+            {lists.length === 3 ? (
                 <>
                     <h3>You cannot add more than 3 items to wishlist</h3>
                     <button onClick={toReset}>RESET</button>
